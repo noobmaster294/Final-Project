@@ -1,0 +1,139 @@
+img {
+    border: 1px solid #ddd;
+    border-radius: 25px;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+center {
+    display: block;
+	margin-top :150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+}
+
+p::first-letter {
+    color: blue;
+    font-size: 150%;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+p {
+    text-indent: 50px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 300px;
+    height: 60px;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
+
+footer>p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10;
+    text-indent: 10px
+}
+
+input[type=text],
+select {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    background-color: #1916d3;
+    padding: 12px 20px;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+textarea {
+    border: 1px solid #888;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+label {
+    padding: 2px 2px 2px 0;
+    display: inline-block;
+}
+.project-div{
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 20%
+}
+.project-div a:hover {
+  background: #ddd;
+  color: black;
+}
+.container {
+    border-radius: 1px;
+    background-color: #f2f2f2;
+    padding: 2px;
+}
+
+input[type=submit] {
+    margin-top: 20px 20px 0px 0px;
+    background-color: #1153e0;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
